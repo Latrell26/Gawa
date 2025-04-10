@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp2"
+    Shell.FlyoutBehavior="Flyout"
+    Title="MauiApp2">
+
+    <ShellContent
+        ContentTemplate="{DataTemplate local:FirstPage}"
+        Route="FirstPage"
+        Shell.NavBarIsVisible="True" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage"
+        Shell.NavBarIsVisible="True" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate local:NewPage1}"
+        Route="NewPage1"
+        Shell.NavBarIsVisible="True" />
+
+    <TabBar>
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate local:HomePage}" Route="HomePage" Shell.NavBarIsVisible="True" />
+        </Tab>
+
+        <Tab Title="Ranking" Icon="ranking.png">
+            <ShellContent ContentTemplate="{DataTemplate local:RankingPage}" Route="RankingPage" Shell.NavBarIsVisible="True" />
+        </Tab>
+
+        <Tab Title="Create" Icon="plus.png">
+            <ShellContent ContentTemplate="{DataTemplate local:CreatePage}" Route="CreatePage" Shell.NavBarIsVisible="True" />
+        </Tab>
+
+        <Tab Title="Saved" Icon="saved.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SavePage}" Route="SavePage" Shell.NavBarIsVisible="True" />
+        </Tab>
+
+        <Tab Title="Profile" Icon="profile.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" Route="ProfilePage" Shell.NavBarIsVisible="True" />
+        </Tab>
+    </TabBar>
+</Shell>

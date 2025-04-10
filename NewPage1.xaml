@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.NewPage1"
+             Title="NewPage1"
+             BackgroundColor="White"
+             Shell.NavBarIsVisible="False">
+    <Grid RowDefinitions="*, Auto">
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="55,120,55,0" Spacing="20" VerticalOptions="Start">
+                <Image Source="logo.png"
+                       HeightRequest="100"
+                       WidthRequest="100"
+                       Scale="1.2"
+                       HorizontalOptions="Center"
+                       Margin="0,15,0,10"/>
+
+                <Frame CornerRadius="15" Padding="0" BackgroundColor="#f5f5f5" HeightRequest="45" BorderColor="Gray">
+                    <AbsoluteLayout>
+                        <Entry x:Name="emailEntry"
+                               Placeholder="Email Address"
+                               FontSize="15"
+                               BackgroundColor="Transparent"
+                               Keyboard="Text"
+                               TextColor="Black"
+                               Margin="10,0,40,0"
+                               AbsoluteLayout.LayoutBounds="0,0.5,1,1"
+                               AbsoluteLayout.LayoutFlags="All"
+                               TextChanged="OnTextChanged"/>
+                        <ImageButton x:Name="clearEmailBtn"
+                                     Source="close.png"
+                                     Scale="0.3"
+                                     HeightRequest="20"
+                                     WidthRequest="20"
+                                     Margin="5"
+                                     IsVisible="False"
+                                     Clicked="OnClearEmail"
+                                     AbsoluteLayout.LayoutBounds="1,0.5,-1,-1"
+                                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                    </AbsoluteLayout>
+                </Frame>
+
+                <Frame CornerRadius="15" Padding="0" BackgroundColor="#f5f5f5" HeightRequest="45" BorderColor="Gray">
+                    <AbsoluteLayout>
+                        <Entry x:Name="passwordEntry"
+                        Placeholder="Password"
+                        FontSize="15"
+                        BackgroundColor="Transparent"
+                        IsPassword="True"
+                        TextColor="Black"
+                        Margin="10,0,40,0"
+                        AbsoluteLayout.LayoutBounds="0,0.5,1,1"
+                        AbsoluteLayout.LayoutFlags="All"
+                        TextChanged="OnPasswordTextChanged"/>
+
+                        <ImageButton x:Name="togglePasswordBtn"
+                          Source="view.png"
+                          Scale="0.5"
+                          HeightRequest="20"
+                          WidthRequest="20"
+                          Margin="5"
+                          IsVisible="False"
+                          Clicked="OnTogglePassword"
+                          AbsoluteLayout.LayoutBounds="1,0.5,-1,-1"
+                          AbsoluteLayout.LayoutFlags="PositionProportional"/>   
+                    </AbsoluteLayout>
+                </Frame>
+
+                <Button Text="Log in"
+                        FontSize="15"
+                        FontAttributes="Bold"
+                        BackgroundColor="#4120a9"
+                        TextColor="White"
+                        HeightRequest="45"
+                        WidthRequest="275"
+                        CornerRadius="30"
+                        HorizontalOptions="Center"
+                        Clicked="OnHomePageClicked"/>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <HorizontalStackLayout Grid.Row="1" HorizontalOptions="Center" Margin="0,0,0,50">
+            <Label Text="Don't have an account?"
+                   FontSize="14"
+                   TextColor="Black"/>
+            <Label Text=" Sign up"
+                   FontSize="14"
+                   FontAttributes="Bold"
+                   TextColor="#4120a9">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnSignupTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+        </HorizontalStackLayout>
+    </Grid>
+</ContentPage>

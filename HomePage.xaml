@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.HomePage"
+             Title="HomePage"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False"
+             xmlns:local="clr-namespace:MauiApp2">
+
+    <Grid>
+        <VerticalStackLayout Padding="10,10" Spacing="10">
+            <local:NotificationView/>
+        </VerticalStackLayout>
+
+        <ScrollView Padding="0" VerticalOptions="FillAndExpand" Margin="0,115,0,0" VerticalScrollBarVisibility="Never">
+            <CollectionView ItemsSource="{Binding Images}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" VerticalItemSpacing="5" HorizontalItemSpacing="0" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="Transparent"
+                                       CornerRadius="20" 
+                                       BorderColor="Transparent"
+                                       HasShadow="False"
+                                       Padding="0"
+                                       Margin="5">
+                            <Image Source="{Binding ImageUrl}" 
+                                           Aspect="AspectFill" 
+                                           WidthRequest="180"
+                                           HeightRequest="{Binding ImageHeight}" 
+                                           HorizontalOptions="Fill"
+                                           VerticalOptions="Fill">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnImageTapped" CommandParameter="{Binding .}" />
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </Grid>
+</ContentPage>

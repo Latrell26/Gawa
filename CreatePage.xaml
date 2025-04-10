@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.CreatePage"
+             Title="CreatePage"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False"
+             xmlns:local="clr-namespace:MauiApp2">
+    <Grid>
+        <VerticalStackLayout Padding="10,10" Spacing="20">
+            <local:NotificationView/>
+
+            <Entry x:Name="titleEntry"
+                   Placeholder="Title"
+                   TextColor="Black"
+                   PlaceholderColor="Gray"
+                   BackgroundColor="Transparent"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="16"/>
+
+            <BoxView Color="Black"
+                     HeightRequest="1"
+                     HorizontalOptions="FillAndExpand"
+                     Margin="0,-20,0,0"/>
+
+            <Picker x:Name="categoryPicker" Title="Category" TextColor="Black" FontSize="16">
+                <Picker.Items>
+                    <x:String>Digital Art</x:String>
+                    <x:String>Photography</x:String>
+                    <x:String>Abstract</x:String>
+                    <x:String>Sculpture</x:String>
+                </Picker.Items>
+            </Picker>
+            <BoxView Color="Black"
+                      HeightRequest="1"
+                      HorizontalOptions="FillAndExpand"
+                      Margin="0,-20,0,0"/>
+
+            <Button Text="Submit" 
+                    Margin="0,00,0,0"
+                    Clicked="OnUploadImageClicked" 
+                    BackgroundColor="#4120a9" 
+                    TextColor="white"
+                    HorizontalOptions="End"
+                    FontSize="14"
+                    FontAttributes="Bold"
+                    CornerRadius="20"/>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
