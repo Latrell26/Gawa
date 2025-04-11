@@ -8,12 +8,11 @@
     <Grid RowDefinitions="*, Auto">
         <ScrollView Grid.Row="0">
             <VerticalStackLayout Padding="55,120,55,0" Spacing="20" VerticalOptions="Start">
-                <Image Source="logo.png"
-                       HeightRequest="100"
-                       WidthRequest="100"
+                <Image Source="frame3.png"
+                       HeightRequest="80"
                        Scale="1.2"
                        HorizontalOptions="Center"
-                       Margin="0,15,0,10"/>
+                       Margin="0,35,0,10"/>
 
                 <Frame CornerRadius="15" Padding="0" BackgroundColor="#f5f5f5" HeightRequest="45" BorderColor="Gray">
                     <AbsoluteLayout>
@@ -67,9 +66,9 @@
                 </Frame>
 
                 <Button Text="Log in"
-                        FontSize="15"
+                        FontSize="17"
                         FontAttributes="Bold"
-                        BackgroundColor="#4120a9"
+                        BackgroundColor="#1B56FD"
                         TextColor="White"
                         HeightRequest="45"
                         WidthRequest="275"
@@ -86,7 +85,7 @@
             <Label Text=" Sign up"
                    FontSize="14"
                    FontAttributes="Bold"
-                   TextColor="#4120a9">
+                   TextColor="#1B56FD">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnSignupTapped" />
                 </Label.GestureRecognizers>

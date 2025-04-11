@@ -7,7 +7,7 @@
              Shell.NavBarIsVisible="False">
     <VerticalStackLayout Spacing="20" Padding="20" HorizontalOptions="Center">
 
-        <Image Source="logo.png"
+        <Image Source="frame3.png"
                HeightRequest="100"
                WidthRequest="100"
                Scale="1.2"
@@ -35,7 +35,7 @@
         <Button Text="Log in"
                 FontSize="17"
                 FontAttributes="Bold"
-                BackgroundColor="#4120a9"
+                BackgroundColor="#1B56FD"
                 TextColor="White"
                 HeightRequest="30"
                 WidthRequest="250"
@@ -47,13 +47,13 @@
                 FontSize="17"
                 FontAttributes="Bold"
                 BackgroundColor="Transparent"
-                TextColor="#4120a9"
+                TextColor="#1B56FD"
                 HeightRequest="30"
                 WidthRequest="250"
                 CornerRadius="30"
                 HorizontalOptions="Center"
                 Clicked="OnSignUpClicked"
-                BorderColor="#4120a9"
+                BorderColor="#1B56FD"
                 BorderWidth="1"/>
     </VerticalStackLayout>
 </ContentPage>

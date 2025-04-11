@@ -37,7 +37,7 @@
                            HorizontalOptions="Start"/>
 
                     <Label x:Name="CategoryLabel"
-                           TextColor="#4120a9"
+                           TextColor="#1B56FD"
                            FontSize="15"
                            HorizontalTextAlignment="Start"
                            Margin="5,5,0,0"
