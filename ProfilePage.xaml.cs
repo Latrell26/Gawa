@@ -18,9 +18,7 @@ namespace MauiApp2
         private string _userEmail;
         private string _userName;
         private readonly Supabase.Client _supabaseClient;
-
         public ObservableCollection<ImageData> Images { get; set; } = new ObservableCollection<ImageData>();
-
         public string UserEmail
         {
             get => _userEmail;
@@ -33,7 +31,6 @@ namespace MauiApp2
                 }
             }
         }
-
         public string UserName
         {
             get => _userName;
@@ -47,7 +44,6 @@ namespace MauiApp2
                 }
             }
         }
-
         public ProfilePage()
         {
             InitializeComponent();
@@ -61,7 +57,6 @@ namespace MauiApp2
             LoadUserPreferences();
             LoadImages();
         }
-
         private void LoadUserPreferences()
         {
             if (Preferences.ContainsKey("UserEmail"))
@@ -69,7 +64,6 @@ namespace MauiApp2
             if (Preferences.ContainsKey("UserName"))
                 UserName = Preferences.Get("UserName", string.Empty);
         }
-
         protected override void OnAppearing()
         {
             base.OnAppearing();
@@ -79,7 +73,6 @@ namespace MauiApp2
             // Re-load data on appearing
             LoadImages();
         }
-
         private async void LoadImages()
         {
             try
@@ -103,17 +96,13 @@ namespace MauiApp2
                 foreach (var image in response.Models)
                 {
                     Images.Add(image);
-                }
-
-               
+                }           
             }
             catch (Exception ex)
             {
                 await DisplayAlert("Error", $"Failed to load images: {ex.Message}", "OK");
             }
         }
-
-
         private async void OnImageTapped(object sender, TappedEventArgs e)
         {
             if (e.Parameter is ImageData imageData)

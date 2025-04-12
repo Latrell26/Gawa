@@ -5,7 +5,8 @@
              Title="ProfilePage"
              NavigationPage.HasNavigationBar="False"
              Shell.NavBarIsVisible="False"
-             xmlns:local="clr-namespace:MauiApp2">
+             xmlns:local="clr-namespace:MauiApp2"
+             BackgroundColor="White">
 
     <Grid>
         <Grid.RowDefinitions>

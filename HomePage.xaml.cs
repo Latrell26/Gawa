@@ -23,18 +23,25 @@ namespace MauiApp2
             );
 
             Images = new ObservableCollection<ImageData>();
-            LoadImages();
+            LoadImages(); // Load all initially
             BindingContext = this;
-        }
 
+            // ✅ Listen for messages from NotificationView
+            MessagingCenter.Subscribe<object, string>(this, "FilterImages", (sender, category) =>
+            {
+                if (category == "All")
+                    LoadImages();
+                else
+                    LoadImages(category);
+            });
+        }
         protected override void OnAppearing()
         {
             base.OnAppearing();
             MessagingCenter.Send<object, bool>(this, "ToggleScrollView", true);
             MessagingCenter.Send<object, bool>(this, "ToggleSearchBar", true);
         }
-
-        public async void LoadImages()
+        public async void LoadImages(string category = null)
         {
             try
             {
@@ -46,12 +53,18 @@ namespace MauiApp2
                     return;
                 }
 
-                var response = await _supabaseClient
+                var query = _supabaseClient
                     .From<ImageData>()
-                    .Filter("uploader_name", Supabase.Postgrest.Constants.Operator.NotEqual, currentUserName)
-                    .Get();
+                    .Filter("uploader_name", Supabase.Postgrest.Constants.Operator.NotEqual, currentUserName);
 
-                Debug.WriteLine(response.Content); 
+                if (!string.IsNullOrEmpty(category))
+                {
+                    query = query.Filter("category", Supabase.Postgrest.Constants.Operator.Equals, category);
+                }
+
+                var response = await query.Get();
+
+                Debug.WriteLine(response.Content);
 
                 Images.Clear();
                 foreach (var image in response.Models)
@@ -61,7 +74,8 @@ namespace MauiApp2
 
                 if (Images.Count == 0)
                 {
-                    await DisplayAlert("No Data", "No images found from other users.", "OK");
+                    string catMessage = string.IsNullOrEmpty(category) ? "from other users" : $"in the '{category}' category";
+                    await DisplayAlert("No Data", $"No images found {catMessage}.", "OK");
                 }
             }
             catch (Exception ex)
@@ -69,8 +83,6 @@ namespace MauiApp2
                 await DisplayAlert("Error", $"Failed to load images: {ex.Message}", "OK");
             }
         }
-
-
 
         private async void OnImageTapped(object sender, TappedEventArgs e)
         {
@@ -84,10 +96,7 @@ namespace MauiApp2
             }
         }
 
-
-
-
-        [Table("images")] 
+        [Table("images")]
         public class ImageData : BaseModel
         {
             [PrimaryKey("id")]

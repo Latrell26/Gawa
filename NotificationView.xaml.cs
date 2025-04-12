@@ -12,13 +12,6 @@ namespace MauiApp2
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-
-        private async void OnCategoryClicked(object sender, EventArgs e)
-        {
-
-            await Navigation.PushAsync(new DigitalPage(), false);
-        }
-
         public string SearchText
         {
             get => _searchText;
@@ -33,7 +26,6 @@ namespace MauiApp2
                 }
             }
         }
-
         public bool IsSearchEmpty => string.IsNullOrEmpty(SearchText);
         public bool IsSearchNotEmpty => !string.IsNullOrEmpty(SearchText);
 
@@ -62,7 +54,6 @@ namespace MauiApp2
                 }
             }
         }
-
         public NotificationView()
         {
             InitializeComponent();
@@ -95,7 +86,39 @@ namespace MauiApp2
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        private void OnFilterClicked(object sender, EventArgs e)
+        {
+            if (sender is Button button && button.CommandParameter is string category)
+            {
+                MessagingCenter.Send<object, string>(this, "FilterImages", category);
+
+                foreach (var child in ButtonStackLayout.Children)
+                {
+                    if (child is Button btn)
+                    {
+                        btn.Background = null;
+                        btn.BackgroundColor = Color.FromArgb("#CCCCCC");
+                        btn.TextColor = Colors.Black;
+                    }
+                }
+
+                button.BackgroundColor = Color.FromArgb("#1B56FD");
+                button.TextColor = Colors.White;
+
+                if (category != "All")
+                {
+                    AllButton.IsVisible = true;
+                }
+                else
+                {
+                    AllButton.IsVisible = false;
+                }
+            }
+        }
+
+
     }
 
-
 }
+

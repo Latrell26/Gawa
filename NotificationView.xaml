@@ -52,13 +52,15 @@
                     Margin="0,10,0,0"
                     HorizontalOptions="FillAndExpand"
                     IsVisible="{Binding IsScrollViewVisible}">
-            <HorizontalStackLayout Spacing="10">
-                <Button Text="Digital" CornerRadius="15" BackgroundColor="#CCCCCC" Clicked="OnCategoryClicked"/>
-                <Button Text="Painting" CornerRadius="15" BackgroundColor="#CCCCCC" Clicked="OnCategoryClicked"/>
-                <Button Text="Photography" CornerRadius="15" BackgroundColor="#CCCCCC" Clicked="OnCategoryClicked"/>
-                <Button Text="Videography" CornerRadius="15" BackgroundColor="#CCCCCC" Clicked="OnCategoryClicked"/>
-                <Button Text="Sculpture" CornerRadius="15" BackgroundColor="#CCCCCC" Clicked="OnCategoryClicked"/>
+
+            <HorizontalStackLayout Spacing="10" x:Name="ButtonStackLayout">
+                <Button x:Name="AllButton" Text="All" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="All" IsVisible="False"/>
+                <Button Text="Digital" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Digital Art"/>
+                <Button Text="Photography" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Photography"/>
+                <Button Text="Abstract" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Abstract"/>
+                <Button Text="Sculpture" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Sculpture"/>
             </HorizontalStackLayout>
+
         </ScrollView>
 
         <CollectionView x:Name="imagesCollectionView" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" 
