@@ -6,6 +6,7 @@ using Supabase;
 using Supabase.Storage;
 using Supabase.Postgrest.Attributes;
 using Supabase.Postgrest.Models;
+using MauiApp2.Models;
 
 namespace MauiApp2
 {
@@ -71,7 +72,7 @@ namespace MauiApp2
         {
             try
             {
-                string uploaderName = Preferences.Get("UserName", "Unknown"); 
+                string uploaderName = Preferences.Get("UserName", "Unknown");
 
                 var newImage = new ImageRecord
                 {
@@ -106,23 +107,5 @@ namespace MauiApp2
                 return null;
             }
         }
-    }
-    [Table("images")]
-    public class ImageRecord : BaseModel
-    {
-        [PrimaryKey("id", false)]
-        public int Id { get; set; }
-
-        [Column("image_url")]
-        public string ImageUrl { get; set; }
-
-        [Column("category")]
-        public string Category { get; set; }
-
-        [Column("uploader_name")] 
-        public string UploaderName { get; set; }
-
-        [Column("title")] 
-        public string Title { get; set; }
     }
 }

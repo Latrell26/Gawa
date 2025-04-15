@@ -1,127 +1,139 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\latre\\source\\repos\\Gawa\\",
+  "WorkspaceRootPath": "C:\\NET MAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\notificationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:notificationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\editprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:editprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\notificationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:notificationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:editprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\createpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:createpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\models\\imagerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:models\\imagerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\createpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:createpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\digitalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:digitalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\firstpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:firstpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\digitalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:digitalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\createpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:createpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\firstpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:firstpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\notificationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:notificationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\notificationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:notificationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\savepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\savepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:savepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\digitalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\digitalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:digitalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\fullscreenimagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\fullscreenimagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:fullscreenimagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\firstpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:firstpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\latre\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.30\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\fullscreenimagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\fullscreenimagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:fullscreenimagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\createpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:createpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\rankingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\rankingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:rankingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\firstpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:firstpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\rankingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\rankingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:rankingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\platforms\\android\\resources\\values\\xmlfile1.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\platforms\\android\\resources\\values\\xmlfile1.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:platforms\\android\\resources\\values\\xmlfile1.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Aapt2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\users\\latre\\source\\repos\\gawa\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|c:\\net maui\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BE0F436-C53B-4F07-953F-B01606B7DA9D}|MauiApp2.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -132,93 +144,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\EditProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "EditProfilePage.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\EditProfilePage.xaml.cs",
+              "RelativeToolTip": "EditProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:51:50.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\Resources\\Styles\\Styles.xaml",
-              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\Resources\\Styles\\Styles.xaml",
-              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
-              "ViewState": "AgIAAKMBAAAAAAAAAADwv64BAAA/AAAAAAAAAA==",
+              "Title": "CreatePage.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\CreatePage.xaml",
+              "RelativeDocumentMoniker": "CreatePage.xaml",
+              "ToolTip": "C:\\NET MAUI\\CreatePage.xaml",
+              "RelativeToolTip": "CreatePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-11T07:51:15.492Z",
+              "WhenOpened": "2025-04-02T07:12:23.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\HomePage.xaml",
-              "RelativeDocumentMoniker": "HomePage.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\HomePage.xaml",
-              "RelativeToolTip": "HomePage.xaml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-10T00:53:47.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "HomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\HomePage.xaml.cs",
-              "RelativeToolTip": "HomePage.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAADwvy8AAABCAAAAAAAAAA==",
+              "Title": "CreatePage.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\CreatePage.xaml.cs",
+              "RelativeDocumentMoniker": "CreatePage.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\CreatePage.xaml.cs",
+              "RelativeToolTip": "CreatePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T08:50:45.207Z",
+              "WhenOpened": "2025-02-27T22:51:28.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NotificationView.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\NotificationView.xaml",
-              "RelativeDocumentMoniker": "NotificationView.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\NotificationView.xaml",
-              "RelativeToolTip": "NotificationView.xaml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwDQAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-10T01:07:00.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotificationView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\NotificationView.xaml.cs",
-              "RelativeDocumentMoniker": "NotificationView.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\NotificationView.xaml.cs",
-              "RelativeToolTip": "NotificationView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T15:03:10.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-10T00:49:28.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DigitalPage.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\DigitalPage.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\DigitalPage.xaml",
               "RelativeDocumentMoniker": "DigitalPage.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\DigitalPage.xaml",
+              "ToolTip": "C:\\NET MAUI\\DigitalPage.xaml",
               "RelativeToolTip": "DigitalPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -227,63 +200,188 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreatePage.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\CreatePage.xaml",
-              "RelativeDocumentMoniker": "CreatePage.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\CreatePage.xaml",
-              "RelativeToolTip": "CreatePage.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-02T07:12:23.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "ProfilePage.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\ProfilePage.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\ProfilePage.xaml",
               "RelativeDocumentMoniker": "ProfilePage.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\ProfilePage.xaml",
+              "ToolTip": "C:\\NET MAUI\\ProfilePage.xaml",
               "RelativeToolTip": "ProfilePage.xaml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-10T01:13:56.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "ProfilePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\ProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "ProfilePage.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\ProfilePage.xaml.cs",
               "RelativeToolTip": "ProfilePage.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T14:53:32.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Colors.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\Resources\\Styles\\Colors.xaml",
-              "RelativeDocumentMoniker": "Resources\\Styles\\Colors.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\Resources\\Styles\\Colors.xaml",
-              "RelativeToolTip": "Resources\\Styles\\Colors.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EditProfilePage.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\EditProfilePage.xaml",
+              "RelativeDocumentMoniker": "EditProfilePage.xaml",
+              "ToolTip": "C:\\NET MAUI\\EditProfilePage.xaml",
+              "RelativeToolTip": "EditProfilePage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-11T07:43:33.8Z",
+              "WhenOpened": "2025-04-15T14:51:14.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\NET MAUI\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAASwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T02:17:29.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FirstPage.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\FirstPage.xaml.cs",
+              "RelativeDocumentMoniker": "FirstPage.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\FirstPage.xaml.cs",
+              "RelativeToolTip": "FirstPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T02:01:14.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageRecord.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\Models\\ImageRecord.cs",
+              "RelativeDocumentMoniker": "Models\\ImageRecord.cs",
+              "ToolTip": "C:\\NET MAUI\\Models\\ImageRecord.cs",
+              "RelativeToolTip": "Models\\ImageRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T16:39:35.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FirstPage.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\FirstPage.xaml",
+              "RelativeDocumentMoniker": "FirstPage.xaml",
+              "ToolTip": "C:\\NET MAUI\\FirstPage.xaml",
+              "RelativeToolTip": "FirstPage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T01:01:14.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\NET MAUI\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T00:49:28.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NotificationView.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\NotificationView.xaml.cs",
+              "RelativeDocumentMoniker": "NotificationView.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\NotificationView.xaml.cs",
+              "RelativeToolTip": "NotificationView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T15:03:10.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "HomePage.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\HomePage.xaml.cs",
+              "RelativeToolTip": "HomePage.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAADwvy8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:50:45.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotificationView.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\NotificationView.xaml",
+              "RelativeDocumentMoniker": "NotificationView.xaml",
+              "ToolTip": "C:\\NET MAUI\\NotificationView.xaml",
+              "RelativeToolTip": "NotificationView.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T01:07:00.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\HomePage.xaml",
+              "RelativeDocumentMoniker": "HomePage.xaml",
+              "ToolTip": "C:\\NET MAUI\\HomePage.xaml",
+              "RelativeToolTip": "HomePage.xaml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T00:53:47.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\NET MAUI\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAKMBAAAAAAAAAADwv64BAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T07:51:15.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\NET MAUI\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T07:43:33.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\MainPage.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\MainPage.xaml",
+              "ToolTip": "C:\\NET MAUI\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -292,36 +390,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "FirstPage.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\FirstPage.xaml",
-              "RelativeDocumentMoniker": "FirstPage.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\FirstPage.xaml",
-              "RelativeToolTip": "FirstPage.xaml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-10T01:01:14.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "SavePage.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\SavePage.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\SavePage.xaml",
               "RelativeDocumentMoniker": "SavePage.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\SavePage.xaml",
+              "ToolTip": "C:\\NET MAUI\\SavePage.xaml",
               "RelativeToolTip": "SavePage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-10T01:13:48.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T01:13:48.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "DigitalPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\DigitalPage.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\DigitalPage.xaml.cs",
               "RelativeDocumentMoniker": "DigitalPage.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\DigitalPage.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\DigitalPage.xaml.cs",
               "RelativeToolTip": "DigitalPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -329,24 +413,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "NewPage1.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\NewPage1.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\NewPage1.xaml",
               "RelativeDocumentMoniker": "NewPage1.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\NewPage1.xaml",
+              "ToolTip": "C:\\NET MAUI\\NewPage1.xaml",
               "RelativeToolTip": "NewPage1.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-10T01:38:58.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T01:38:58.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "FullScreenImagePage.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\FullScreenImagePage.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\FullScreenImagePage.xaml",
               "RelativeDocumentMoniker": "FullScreenImagePage.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\FullScreenImagePage.xaml",
+              "ToolTip": "C:\\NET MAUI\\FullScreenImagePage.xaml",
               "RelativeToolTip": "FullScreenImagePage.xaml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -354,24 +437,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\App.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\App.xaml",
+              "ToolTip": "C:\\NET MAUI\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-11T08:39:58.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T08:39:58.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "FullScreenImagePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\FullScreenImagePage.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\FullScreenImagePage.xaml.cs",
               "RelativeDocumentMoniker": "FullScreenImagePage.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\FullScreenImagePage.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\FullScreenImagePage.xaml.cs",
               "RelativeToolTip": "FullScreenImagePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -379,23 +461,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Microsoft.Maui.Resizetizer.After.targets",
               "DocumentMoniker": "C:\\Users\\latre\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.30\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.30\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\Users\\latre\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.30\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "ToolTip": "C:\\Users\\latre\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.30\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.30\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\Users\\latre\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.30\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "ViewState": "AgIAAGICAAAAAAAAAIAwwHECAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-04-11T08:09:55.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "NewPage1.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\NewPage1.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\NewPage1.xaml.cs",
               "RelativeDocumentMoniker": "NewPage1.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\NewPage1.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\NewPage1.xaml.cs",
               "RelativeToolTip": "NewPage1.xaml.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAwwEgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -403,24 +485,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "RankingPage.xaml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\RankingPage.xaml",
+              "DocumentMoniker": "C:\\NET MAUI\\RankingPage.xaml",
               "RelativeDocumentMoniker": "RankingPage.xaml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\RankingPage.xaml",
+              "ToolTip": "C:\\NET MAUI\\RankingPage.xaml",
               "RelativeToolTip": "RankingPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-10T01:13:37.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T01:13:37.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\MainPage.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -428,11 +509,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\AppShell.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\AppShell.xaml.cs",
               "RelativeToolTip": "AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -440,23 +521,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CreatePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\CreatePage.xaml.cs",
-              "RelativeDocumentMoniker": "CreatePage.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\CreatePage.xaml.cs",
-              "RelativeToolTip": "CreatePage.xaml.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAkwGMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T22:51:28.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "RankingPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\RankingPage.xaml.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\RankingPage.xaml.cs",
               "RelativeDocumentMoniker": "RankingPage.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\RankingPage.xaml.cs",
+              "ToolTip": "C:\\NET MAUI\\RankingPage.xaml.cs",
               "RelativeToolTip": "RankingPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -464,35 +533,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FirstPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\FirstPage.xaml.cs",
-              "RelativeDocumentMoniker": "FirstPage.xaml.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\FirstPage.xaml.cs",
-              "RelativeToolTip": "FirstPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T02:01:14.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\Platforms\\Android\\MainActivity.cs",
-              "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\Platforms\\Android\\MainActivity.cs",
-              "RelativeToolTip": "Platforms\\Android\\MainActivity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T02:17:29.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "MainApplication.cs",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\Platforms\\Android\\MainApplication.cs",
+              "DocumentMoniker": "C:\\NET MAUI\\Platforms\\Android\\MainApplication.cs",
               "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\NET MAUI\\Platforms\\Android\\MainApplication.cs",
               "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAhwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -500,23 +545,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Xamarin.Android.Aapt2.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Aapt2.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeDocumentMoniker": "..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Aapt2.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Aapt2.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeToolTip": "..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Aapt2.targets",
               "ViewState": "AgIAAL8AAAAAAAAAAAD4v9UAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-03-16T23:00:15.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "XMLFile1.xml",
-              "DocumentMoniker": "C:\\Users\\latre\\source\\repos\\Gawa\\Platforms\\Android\\Resources\\values\\XMLFile1.xml",
+              "DocumentMoniker": "C:\\NET MAUI\\Platforms\\Android\\Resources\\values\\XMLFile1.xml",
               "RelativeDocumentMoniker": "Platforms\\Android\\Resources\\values\\XMLFile1.xml",
-              "ToolTip": "C:\\Users\\latre\\source\\repos\\Gawa\\Platforms\\Android\\Resources\\values\\XMLFile1.xml",
+              "ToolTip": "C:\\NET MAUI\\Platforms\\Android\\Resources\\values\\XMLFile1.xml",
               "RelativeToolTip": "Platforms\\Android\\Resources\\values\\XMLFile1.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",

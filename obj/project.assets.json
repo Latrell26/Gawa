@@ -16219,7 +16219,7 @@
         }
       }
     },
-    "net9.0-ios18.4": {
+    "net9.0-ios18.2": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -16947,7 +16947,7 @@
         }
       }
     },
-    "net9.0-ios18.4/android-arm64": {
+    "net9.0-ios18.2/android-arm64": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -17675,7 +17675,7 @@
         }
       }
     },
-    "net9.0-ios18.4/android-x64": {
+    "net9.0-ios18.2/android-x64": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -18403,7 +18403,7 @@
         }
       }
     },
-    "net9.0-ios18.4/ios-arm64": {
+    "net9.0-ios18.2/ios-arm64": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -19131,7 +19131,7 @@
         }
       }
     },
-    "net9.0-ios18.4/maccatalyst-x64": {
+    "net9.0-ios18.2/maccatalyst-x64": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -19859,7 +19859,7 @@
         }
       }
     },
-    "net9.0-ios18.4/win10-x64": {
+    "net9.0-ios18.2/win10-x64": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -20587,7 +20587,7 @@
         }
       }
     },
-    "net9.0-maccatalyst18.4": {
+    "net9.0-maccatalyst18.2": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -21315,7 +21315,7 @@
         }
       }
     },
-    "net9.0-maccatalyst18.4/android-arm64": {
+    "net9.0-maccatalyst18.2/android-arm64": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -22043,7 +22043,7 @@
         }
       }
     },
-    "net9.0-maccatalyst18.4/android-x64": {
+    "net9.0-maccatalyst18.2/android-x64": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -22771,7 +22771,7 @@
         }
       }
     },
-    "net9.0-maccatalyst18.4/ios-arm64": {
+    "net9.0-maccatalyst18.2/ios-arm64": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -23499,7 +23499,7 @@
         }
       }
     },
-    "net9.0-maccatalyst18.4/maccatalyst-x64": {
+    "net9.0-maccatalyst18.2/maccatalyst-x64": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -24227,7 +24227,7 @@
         }
       }
     },
-    "net9.0-maccatalyst18.4/win10-x64": {
+    "net9.0-maccatalyst18.2/win10-x64": {
       "CommunityToolkit.Maui/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -34712,7 +34712,7 @@
       "Supabase.Postgrest >= 4.0.3",
       "Supabase.Storage >= 2.0.2"
     ],
-    "net9.0-ios18.4": [
+    "net9.0-ios18.2": [
       "CommunityToolkit.Maui >= 11.1.0",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.30",
@@ -34723,7 +34723,7 @@
       "Supabase.Postgrest >= 4.0.3",
       "Supabase.Storage >= 2.0.2"
     ],
-    "net9.0-maccatalyst18.4": [
+    "net9.0-maccatalyst18.2": [
       "CommunityToolkit.Maui >= 11.1.0",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.30",
@@ -34746,24 +34746,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\latre\\.nuget\\packages\\": {},
+    "C:\\Users\\cruzl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\latre\\Source\\Repos\\Gawa\\MauiApp2.csproj",
+      "projectUniqueName": "C:\\NET MAUI\\MauiApp2.csproj",
       "projectName": "MauiApp2",
-      "projectPath": "C:\\Users\\latre\\Source\\Repos\\Gawa\\MauiApp2.csproj",
-      "packagesPath": "C:\\Users\\latre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\latre\\Source\\Repos\\Gawa\\obj\\",
+      "projectPath": "C:\\NET MAUI\\MauiApp2.csproj",
+      "packagesPath": "C:\\Users\\cruzl\\.nuget\\packages\\",
+      "outputPath": "C:\\NET MAUI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\latre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cruzl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -34783,11 +34783,11 @@
           "targetAlias": "net9.0-android",
           "projectReferences": {}
         },
-        "net9.0-ios18.4": {
+        "net9.0-ios18.2": {
           "targetAlias": "net9.0-ios",
           "projectReferences": {}
         },
-        "net9.0-maccatalyst18.4": {
+        "net9.0-maccatalyst18.2": {
           "targetAlias": "net9.0-maccatalyst",
           "projectReferences": {}
         },
@@ -34872,7 +34872,7 @@
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       },
-      "net9.0-ios18.4": {
+      "net9.0-ios18.2": {
         "targetAlias": "net9.0-ios",
         "dependencies": {
           "CommunityToolkit.Maui": {
@@ -34935,7 +34935,7 @@
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       },
-      "net9.0-maccatalyst18.4": {
+      "net9.0-maccatalyst18.2": {
         "targetAlias": "net9.0-maccatalyst",
         "dependencies": {
           "CommunityToolkit.Maui": {

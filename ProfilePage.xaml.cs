@@ -5,9 +5,8 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
-
 using System.Text.Json.Serialization;
-
+using System.Linq;
 
 namespace MauiApp2
 {
@@ -17,8 +16,12 @@ namespace MauiApp2
     {
         private string _userEmail;
         private string _userName;
+        private string _profilePictureUrl;
+
         private readonly Supabase.Client _supabaseClient;
+
         public ObservableCollection<ImageData> Images { get; set; } = new ObservableCollection<ImageData>();
+
         public string UserEmail
         {
             get => _userEmail;
@@ -31,6 +34,7 @@ namespace MauiApp2
                 }
             }
         }
+
         public string UserName
         {
             get => _userName;
@@ -44,6 +48,20 @@ namespace MauiApp2
                 }
             }
         }
+
+        public string ProfilePictureUrl
+        {
+            get => _profilePictureUrl;
+            set
+            {
+                if (_profilePictureUrl != value)
+                {
+                    _profilePictureUrl = value;
+                    OnPropertyChanged(nameof(ProfilePictureUrl));
+                }
+            }
+        }
+
         public ProfilePage()
         {
             InitializeComponent();
@@ -55,24 +73,51 @@ namespace MauiApp2
             );
 
             LoadUserPreferences();
+            LoadUserProfilePicture();
             LoadImages();
         }
+
         private void LoadUserPreferences()
         {
             if (Preferences.ContainsKey("UserEmail"))
                 UserEmail = Preferences.Get("UserEmail", string.Empty);
+
             if (Preferences.ContainsKey("UserName"))
                 UserName = Preferences.Get("UserName", string.Empty);
         }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
             MessagingCenter.Send<object, bool>(this, "ToggleScrollView", false);
             MessagingCenter.Send<object, bool>(this, "ToggleSearchBar", false);
 
-            // Re-load data on appearing
             LoadImages();
+            LoadUserProfilePicture();
         }
+
+        private async void LoadUserProfilePicture()
+        {
+            try
+            {
+                var response = await _supabaseClient
+                    .From<User>()
+                    .Filter("email", Supabase.Postgrest.Constants.Operator.Equals, UserEmail)
+                    .Get();
+
+                var user = response.Models.FirstOrDefault();
+                if (user != null)
+                {
+                    ProfilePictureUrl = user.ProfilePictureUrl;
+                    Debug.WriteLine("Profile picture loaded: " + ProfilePictureUrl);
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", $"Failed to load profile picture: {ex.Message}", "OK");
+            }
+        }
+
         private async void LoadImages()
         {
             try
@@ -96,13 +141,14 @@ namespace MauiApp2
                 foreach (var image in response.Models)
                 {
                     Images.Add(image);
-                }           
+                }
             }
             catch (Exception ex)
             {
                 await DisplayAlert("Error", $"Failed to load images: {ex.Message}", "OK");
             }
         }
+
         private async void OnImageTapped(object sender, TappedEventArgs e)
         {
             if (e.Parameter is ImageData imageData)
@@ -113,6 +159,11 @@ namespace MauiApp2
             {
                 await DisplayAlert("Error", "No image data found.", "OK");
             }
+        }
+
+        private async void OnEditProfileClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new EditProfilePage());
         }
 
         [Table("images")]
@@ -133,7 +184,22 @@ namespace MauiApp2
 
             [Column("title")]
             public string Title { get; set; }
+        }
 
+        [Table("users")]
+        public class User : BaseModel
+        {
+            [PrimaryKey("id")]
+            public int Id { get; set; }
+
+            [Column("email")]
+            public string Email { get; set; }
+
+            [Column("name")]
+            public string Name { get; set; }
+
+            [Column("profile_picture_url")]
+            public string ProfilePictureUrl { get; set; }
         }
     }
 }

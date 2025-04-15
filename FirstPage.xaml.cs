@@ -11,12 +11,12 @@ namespace MauiApp2
 
         private async void OnSignUpClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainPage()); // Ensure SignUpPage exists
+            await Navigation.PushAsync(new MainPage()); 
         }
 
         private async void OnLoginClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NewPage1()); // Ensure LoginPage exists
+            await Navigation.PushAsync(new NewPage1()); 
         }
     }
 }

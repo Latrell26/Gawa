@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\latre\\Source\\Repos\\Gawa\\MauiApp2.csproj": {}
+    "C:\\NET MAUI\\MauiApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\latre\\Source\\Repos\\Gawa\\MauiApp2.csproj": {
+    "C:\\NET MAUI\\MauiApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\latre\\Source\\Repos\\Gawa\\MauiApp2.csproj",
+        "projectUniqueName": "C:\\NET MAUI\\MauiApp2.csproj",
         "projectName": "MauiApp2",
-        "projectPath": "C:\\Users\\latre\\Source\\Repos\\Gawa\\MauiApp2.csproj",
-        "packagesPath": "C:\\Users\\latre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\latre\\Source\\Repos\\Gawa\\obj\\",
+        "projectPath": "C:\\NET MAUI\\MauiApp2.csproj",
+        "packagesPath": "C:\\Users\\cruzl\\.nuget\\packages\\",
+        "outputPath": "C:\\NET MAUI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\latre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cruzl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,11 +38,11 @@
             "targetAlias": "net9.0-android",
             "projectReferences": {}
           },
-          "net9.0-ios18.4": {
+          "net9.0-ios18.2": {
             "targetAlias": "net9.0-ios",
             "projectReferences": {}
           },
-          "net9.0-maccatalyst18.4": {
+          "net9.0-maccatalyst18.2": {
             "targetAlias": "net9.0-maccatalyst",
             "projectReferences": {}
           },
@@ -127,7 +127,7 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         },
-        "net9.0-ios18.4": {
+        "net9.0-ios18.2": {
           "targetAlias": "net9.0-ios",
           "dependencies": {
             "CommunityToolkit.Maui": {
@@ -190,7 +190,7 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         },
-        "net9.0-maccatalyst18.4": {
+        "net9.0-maccatalyst18.2": {
           "targetAlias": "net9.0-maccatalyst",
           "dependencies": {
             "CommunityToolkit.Maui": {

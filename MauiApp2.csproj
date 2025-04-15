@@ -118,6 +118,9 @@
 	  <MauiXaml Update="DigitalPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="EditProfilePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="FirstPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

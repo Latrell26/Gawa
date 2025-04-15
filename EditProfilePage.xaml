@@ -1,0 +1,45 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.EditProfilePage"
+             Title="EditProfilePage"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False"
+             xmlns:local="clr-namespace:MauiApp2"
+             BackgroundColor="White">
+
+    <VerticalStackLayout Spacing="20" Padding="30">
+
+        <Label Text="Edit Your Profile" 
+               FontSize="24" 
+               HorizontalOptions="Center" />
+
+        <Frame
+            WidthRequest="200"
+            HeightRequest="200"
+            CornerRadius="100"
+            Padding="0"
+            IsClippedToBounds="True"
+            BorderColor="Transparent"
+            HorizontalOptions="Center">
+
+            <Image x:Name="profileImagePreview"
+                   Source="{Binding ProfilePictureUrl}"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   Aspect="AspectFill" />
+        </Frame>
+
+        <Entry x:Name="nameEntry"
+               Placeholder="Enter your name"
+               MaxLength="10"
+               Text="{Binding UserName}"
+               FontSize="18"
+               HorizontalOptions="Center"
+               TextColor="black"/>
+
+        <Button Text="Choose Image" Clicked="OnChooseImageClicked" />
+
+        <Button Text="Done" Clicked="OnDoneButtonClicked" />
+
+    </VerticalStackLayout>
+</ContentPage>
