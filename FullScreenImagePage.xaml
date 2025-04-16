@@ -17,6 +17,7 @@
                        BorderColor="Transparent"
                        HasShadow="False"
                        Margin="2">
+
                     <Image x:Name="FullImageView"
                            Aspect="AspectFill"
                            HorizontalOptions="FillAndExpand"
@@ -47,12 +48,21 @@
                           VerticalOptions="Center"
                           Margin="0,10,0,0">
 
-                        <Image Source="userpic.png"
-                               HeightRequest="40"
-                               WidthRequest="40"
+                        <Image x:Name="UserPic"
+                               HeightRequest="50"
+                               WidthRequest="50"
                                Scale="0.9"
                                VerticalOptions="Center"
-                               Grid.Column="0"/>
+                               Aspect="AspectFill"
+                               Grid.Column="0">
+                            <Image.Clip>
+                                <EllipseGeometry Center="25,25" RadiusX="20" RadiusY="20" />
+                            </Image.Clip>
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnUserPicTapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+
 
                         <Label x:Name="UploaderNameLabel"
                                TextColor="Black"

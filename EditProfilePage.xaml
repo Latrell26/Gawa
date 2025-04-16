@@ -13,21 +13,38 @@
                FontSize="24" 
                HorizontalOptions="Center" />
 
-        <Frame
-            WidthRequest="200"
-            HeightRequest="200"
-            CornerRadius="100"
-            Padding="0"
-            IsClippedToBounds="True"
-            BorderColor="Transparent"
-            HorizontalOptions="Center">
+        <!-- Image with Plus Button Overlay -->
+        <AbsoluteLayout HorizontalOptions="Center" HeightRequest="200" WidthRequest="200">
+            <Frame
+                WidthRequest="200"
+                HeightRequest="200"
+                CornerRadius="100"
+                Padding="0"
+                IsClippedToBounds="True"
+                BorderColor="Transparent"
+                AbsoluteLayout.LayoutBounds="0,0,1,1"
+                AbsoluteLayout.LayoutFlags="All">
 
-            <Image x:Name="profileImagePreview"
-                   Source="{Binding ProfilePictureUrl}"
-                   WidthRequest="200"
-                   HeightRequest="200"
-                   Aspect="AspectFill" />
-        </Frame>
+                <Image x:Name="profileImagePreview"
+                       Source="{Binding ProfilePictureUrl}"
+                       WidthRequest="200"
+                       HeightRequest="200"
+                       Aspect="AspectFill" />
+            </Frame>
+
+            <!-- Plus button on bottom right of image -->
+            <Button x:Name="plusIcon"
+                    Text="+"
+                    FontSize="24"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    BackgroundColor="#007AFF"
+                    TextColor="White"
+                    AbsoluteLayout.LayoutBounds="1,1,50,50"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Clicked="OnChooseImageClicked" />
+        </AbsoluteLayout>
 
         <Entry x:Name="nameEntry"
                Placeholder="Enter your name"
@@ -35,11 +52,9 @@
                Text="{Binding UserName}"
                FontSize="18"
                HorizontalOptions="Center"
-               TextColor="black"/>
+               TextColor="Black"/>
 
-        <Button Text="Choose Image" Clicked="OnChooseImageClicked" />
-
-        <Button Text="Done" Clicked="OnDoneButtonClicked" />
+        <Button Text="Done" Clicked="OnDoneButtonClicked" HorizontalOptions="Center"/>
 
     </VerticalStackLayout>
 </ContentPage>

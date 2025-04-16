@@ -35,12 +35,14 @@ namespace MauiApp2
                     LoadImages(category);
             });
         }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
             MessagingCenter.Send<object, bool>(this, "ToggleScrollView", true);
             MessagingCenter.Send<object, bool>(this, "ToggleSearchBar", true);
         }
+
         public async void LoadImages(string category = null)
         {
             try
@@ -53,6 +55,7 @@ namespace MauiApp2
                     return;
                 }
 
+                // Query images that are not uploaded by the current user
                 var query = _supabaseClient
                     .From<ImageData>()
                     .Filter("uploader_name", Supabase.Postgrest.Constants.Operator.NotEqual, currentUserName);
@@ -69,6 +72,18 @@ namespace MauiApp2
                 Images.Clear();
                 foreach (var image in response.Models)
                 {
+                    // Fetch the profile picture URL of the uploader from the users table
+                    var userResponse = await _supabaseClient
+                        .From<User>()
+                        .Filter("name", Supabase.Postgrest.Constants.Operator.Equals, image.UploaderName)
+                        .Get();
+
+                    if (userResponse.Models.Count > 0)
+                    {
+                        var uploader = userResponse.Models[0];
+                        image.ProfilePictureUrl = uploader.ProfilePictureUrl; // Set the profile picture URL for the image
+                    }
+
                     Images.Add(image);
                 }
 
@@ -88,7 +103,13 @@ namespace MauiApp2
         {
             if (e.Parameter is ImageData imageData)
             {
-                await Navigation.PushAsync(new FullScreenImagePage(imageData.ImageUrl, imageData.UploaderName, imageData.Category, imageData.Title));
+                await Navigation.PushAsync(new FullScreenImagePage(
+                    imageData.ImageUrl,
+                    imageData.UploaderName,
+                    imageData.Category,
+                    imageData.Title,
+                    imageData.ProfilePictureUrl // Pass the profile picture URL to the FullScreenImagePage
+                ));
             }
             else
             {
@@ -96,6 +117,24 @@ namespace MauiApp2
             }
         }
 
+        // User model representing the users table
+        [Table("users")]
+        public class User : BaseModel
+        {
+            [PrimaryKey("id")]
+            public int Id { get; set; }
+
+            [Column("email")]
+            public string Email { get; set; }
+
+            [Column("name")]
+            public string Name { get; set; }
+
+            [Column("profile_picture_url")]
+            public string ProfilePictureUrl { get; set; }
+        }
+
+        // ImageData model representing the images table
         [Table("images")]
         public class ImageData : BaseModel
         {
@@ -113,6 +152,8 @@ namespace MauiApp2
 
             [Column("title")]
             public string Title { get; set; }
+
+            public string ProfilePictureUrl { get; set; }
         }
     }
 }

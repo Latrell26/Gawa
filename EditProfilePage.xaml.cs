@@ -148,7 +148,9 @@ namespace MauiApp2
             }
 
             await DisplayAlert("Success", "Profile updated successfully.", "OK");
-        }
+            await Navigation.PushAsync(new ProfilePage());
+                
+            }
         else
         {
             await DisplayAlert("Error", "User not found in the database.", "OK");

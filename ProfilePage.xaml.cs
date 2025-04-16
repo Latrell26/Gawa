@@ -1,4 +1,4 @@
-using Supabase;
+﻿using Supabase;
 using Supabase.Postgrest.Attributes;
 using Supabase.Postgrest.Models;
 using System.Collections.ObjectModel;
@@ -70,6 +70,7 @@ namespace MauiApp2
             _supabaseClient = new Supabase.Client(
                 "https://xurgyelsilpzbkcrrjqo.supabase.co",
                 "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh1cmd5ZWxzaWxwemJrY3JyanFvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDEwOTc4NDcsImV4cCI6MjA1NjY3Mzg0N30.6kRX0B5MmDuXFxNcRtEjjmIRLFDw4uC2BTsv3myomEQ"
+
             );
 
             LoadUserPreferences();
@@ -128,14 +129,10 @@ namespace MauiApp2
                     return;
                 }
 
-                Debug.WriteLine($"Fetching images for: {UserName}");
-
                 var response = await _supabaseClient
                     .From<ImageData>()
                     .Filter("uploader_name", Supabase.Postgrest.Constants.Operator.Equals, UserName)
                     .Get();
-
-                Debug.WriteLine($"Response: {response.Content}");
 
                 Images.Clear();
                 foreach (var image in response.Models)
@@ -153,7 +150,13 @@ namespace MauiApp2
         {
             if (e.Parameter is ImageData imageData)
             {
-                await Navigation.PushAsync(new FullScreenImagePage(imageData.ImageUrl, imageData.UploaderName, imageData.Category, imageData.Title));
+                await Navigation.PushAsync(new FullScreenImagePage(
+                    imageData.ImageUrl,
+                    imageData.UploaderName,
+                    imageData.Category,
+                    imageData.Title,
+                    ProfilePictureUrl
+                ));
             }
             else
             {
