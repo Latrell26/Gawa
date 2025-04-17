@@ -1,4 +1,4 @@
-using Microsoft.Maui.Controls;
+﻿using Microsoft.Maui.Controls;
 using System.ComponentModel;
 
 namespace MauiApp2
@@ -116,7 +116,6 @@ namespace MauiApp2
                 }
             }
         }
-
 
     }
 

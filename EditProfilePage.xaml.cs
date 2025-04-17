@@ -162,8 +162,6 @@ namespace MauiApp2
     }
 }
 
-
-
         private async Task<string> UploadImageToSupabase(Stream stream, string fileName)
         {
             var storage = supabase.Storage.From("images");

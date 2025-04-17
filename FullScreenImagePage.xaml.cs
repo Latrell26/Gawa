@@ -1,5 +1,5 @@
 ﻿using Microsoft.Maui.Controls;
-using System;
+using Microsoft.Maui.Controls.Xaml;
 
 namespace MauiApp2
 {
@@ -7,46 +7,57 @@ namespace MauiApp2
     {
         private bool isSaved = false;
         private bool isHearted = false;
+        private readonly string _uploaderName;
 
-        public FullScreenImagePage(string imageUrl, string uploaderName, string category, string title, string profilePictureUrl)
+        public FullScreenImagePage(
+            string imageUrl,
+            string uploaderName,
+            string category,
+            string title,
+            string profilePictureUrl)
         {
             InitializeComponent();
 
-            // Set the image source for the full-screen image view
+            _uploaderName = uploaderName;
+
+            // Full‐screen image
             FullImageView.Source = imageUrl;
 
-            // Set the uploader's name and category
+            // Metadata
             UploaderNameLabel.Text = uploaderName;
             CategoryLabel.Text = category;
-
-            // Set the title of the image
             TitleLabel.Text = title;
 
-            // Set the uploader's profile picture
+            // Poser’s profile picture
             if (!string.IsNullOrEmpty(profilePictureUrl))
-            {
-                UserPic.Source = profilePictureUrl;  // Display the uploader's profile picture
-            }
-        }
-        private async void OnUserPicTapped(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ArtistProfilePage());
-        }
-        private void OnBackButtonTapped(object sender, EventArgs e)
-        {
-            Navigation.PopAsync(); // Go back to the previous page
+                UserPic.Source = profilePictureUrl;
         }
 
-        private void OnSaveButtonTapped(object sender, EventArgs e)
+        // <TapGestureRecognizer Tapped="OnUserPicTapped"/>
+        private async void OnUserPicTapped(object sender, TappedEventArgs e)
         {
-            isSaved = !isSaved;
-            SavedButton.Source = isSaved ? "savebold.png" : "saved.png"; // Change the button image based on state
+            // Navigate to the tapped user’s profile by name:
+            await Navigation.PushAsync(new ArtistProfilePage(_uploaderName));
         }
 
-        private void OnHeartButtonTapped(object sender, EventArgs e)
+        // Back button tap
+        private async void OnBackButtonTapped(object sender, TappedEventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
+
+        // Heart icon tap
+        private void OnHeartButtonTapped(object sender, TappedEventArgs e)
         {
             isHearted = !isHearted;
-            HeartButton.Source = isHearted ? "heartred.png" : "heart.png"; // Change the heart button image based on state
+            HeartButton.Source = isHearted ? "heartred.png" : "heart.png";
+        }
+
+        // Save icon tap
+        private void OnSaveButtonTapped(object sender, TappedEventArgs e)
+        {
+            isSaved = !isSaved;
+            SavedButton.Source = isSaved ? "savebold.png" : "saved.png";
         }
     }
 }

@@ -55,10 +55,10 @@
 
             <HorizontalStackLayout Spacing="10" x:Name="ButtonStackLayout">
                 <Button x:Name="AllButton" Text="All" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="All" IsVisible="False"/>
-                <Button Text="Digital" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Digital Art"/>
-                <Button Text="Photography" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Photography"/>
-                <Button Text="Abstract" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Abstract"/>
-                <Button Text="Sculpture" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Sculpture"/>
+                <Button Text="Digital" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Digital Art" Padding="10,2"/>
+                <Button Text="Photography" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Photography" Padding="10,2"/>
+                <Button Text="Abstract" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Abstract" Padding="10,2"/>
+                <Button Text="Sculpture" CornerRadius="15" Clicked="OnFilterClicked" BackgroundColor="#CCCCCC" CommandParameter="Sculpture" Padding="10,2"/>
             </HorizontalStackLayout>
 
         </ScrollView>

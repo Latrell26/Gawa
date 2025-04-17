@@ -1,12 +1,89 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp2.ArtistProfilePage"
-             Title="ArtistProfilePage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Artist Profile"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False"
+             xmlns:local="clr-namespace:MauiApp2"
+             BackgroundColor="White">
+
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- AbsoluteLayout to position back button -->
+        <AbsoluteLayout HeightRequest="60"  Margin="0,-200,0,0">
+            <Frame HeightRequest="50"
+                   WidthRequest="50"
+                   CornerRadius="15"
+                   Padding="5"
+                   BackgroundColor="#f1f1f1"
+                   BorderColor="Transparent"
+                   HasShadow="False"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.01, 0.02"
+                   Scale="0.9"
+                  >
+                <Image Source="back.png"
+                       HeightRequest="40"
+                       WidthRequest="40">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnBackButtonTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Frame>
+        </AbsoluteLayout>
+
+        <!-- Profile header -->
+        <VerticalStackLayout Grid.Row="0"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Start"
+                             Padding="0,60,0,0">
+            <Frame WidthRequest="160" HeightRequest="160"
+                   CornerRadius="100" Padding="0"
+                   IsClippedToBounds="True" BorderColor="Transparent">
+                <Image Source="{Binding ProfilePictureUrl}"
+                       Aspect="AspectFill"
+                       WidthRequest="160" HeightRequest="160"/>
+            </Frame>
+
+            <Label Text="{Binding UserName}"
+                   FontSize="29"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,15,0,10"/>
+        </VerticalStackLayout>
+
+        <!-- Gallery -->
+        <ScrollView Grid.Row="1" Padding="0,10">
+            <CollectionView ItemsSource="{Binding Images}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2"
+                                     VerticalItemSpacing="5"
+                                     HorizontalItemSpacing="5"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="Transparent"
+                               CornerRadius="20"
+                               HasShadow="False"
+                               Padding="0" Margin="5">
+                            <Image Source="{Binding ImageUrl}"
+                                   Aspect="AspectFill"
+                                   WidthRequest="180">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                                        Tapped="OnImageTapped" 
+                                        CommandParameter="{Binding .}" />
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </Grid>
 </ContentPage>

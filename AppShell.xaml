@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Shell
-    x:Class="MauiApp2.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MauiApp2"
-    Shell.FlyoutBehavior="Flyout"
-    Title="MauiApp2">
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:MauiApp2"
+       Shell.FlyoutBehavior="Flyout"
+       x:Class="MauiApp2.AppShell"
+       Title="MauiApp2">
 
     <ShellContent
         ContentTemplate="{DataTemplate local:FirstPage}"
@@ -43,4 +41,8 @@
             <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" Route="ProfilePage" Shell.NavBarIsVisible="True" />
         </Tab>
     </TabBar>
+
+    <!-- Add distinct routes for FullScreenImagePage and ArtistProfilePage -->
+    <ShellContent Route="FullScreenImagePage" ContentTemplate="{DataTemplate local:FullScreenImagePage}" />
+    <ShellContent Route="ArtistProfilePage" ContentTemplate="{DataTemplate local:ArtistProfilePage}" />
 </Shell>

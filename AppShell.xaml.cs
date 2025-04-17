@@ -12,6 +12,10 @@
             Routing.RegisterRoute(nameof(SavePage), typeof(SavePage));
             Routing.RegisterRoute(nameof(ProfilePage), typeof(ProfilePage));
             Routing.RegisterRoute(nameof(MainPage), typeof(MainPage));
+            Routing.RegisterRoute(nameof(FullScreenImagePage), typeof(FullScreenImagePage));
+            Routing.RegisterRoute(nameof(ArtistProfilePage), typeof(ArtistProfilePage));
+           
+
 
             CurrentItem = new ShellContent
             {
