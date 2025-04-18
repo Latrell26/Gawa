@@ -42,12 +42,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.CreatePage.xaml
 build_metadata.AdditionalFiles.TargetPath = CreatePage.xaml
 build_metadata.AdditionalFiles.RelativePath = CreatePage.xaml
 
-[C:/NET MAUI/DigitalPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.DigitalPage.xaml
-build_metadata.AdditionalFiles.TargetPath = DigitalPage.xaml
-build_metadata.AdditionalFiles.RelativePath = DigitalPage.xaml
-
 [C:/NET MAUI/EditProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.EditProfilePage.xaml

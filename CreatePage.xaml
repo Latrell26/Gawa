@@ -1,51 +1,126 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp2"
              x:Class="MauiApp2.CreatePage"
-             Title="CreatePage"
              BackgroundColor="White"
              NavigationPage.HasNavigationBar="False"
-             Shell.NavBarIsVisible="False"
-             xmlns:local="clr-namespace:MauiApp2">
-    <Grid>
-        <VerticalStackLayout Padding="10,10" Spacing="20">
-            <local:NotificationView/>
+             Shell.NavBarIsVisible="False">
 
-            <Entry x:Name="titleEntry"
-                   Placeholder="Title"
-                   TextColor="Black"
-                   PlaceholderColor="Gray"
-                   BackgroundColor="Transparent"
-                   HorizontalOptions="FillAndExpand"
-                   FontSize="16"/>
+    <ScrollView>
+        <Grid Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Header -->
+                <RowDefinition Height="Auto"/>
+                <!-- Image Upload -->
+                <RowDefinition Height="*"/>
+                <!-- Form -->
+            </Grid.RowDefinitions>
 
-            <BoxView Color="Black"
-                     HeightRequest="1"
-                     HorizontalOptions="FillAndExpand"
-                     Margin="0,-20,0,0"/>
+            <AbsoluteLayout Grid.Row="0"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="Start">
+                <Label Text="Create Art"
+                       TextColor="Black"
+                       FontSize="16"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       AbsoluteLayout.LayoutBounds=".5,3,-1,-1"
+                       AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-            <Picker x:Name="categoryPicker" Title="Category" TextColor="Black" FontSize="16">
-                <Picker.Items>
-                    <x:String>Digital Art</x:String>
-                    <x:String>Photography</x:String>
-                    <x:String>Abstract</x:String>
-                    <x:String>Sculpture</x:String>
-                </Picker.Items>
-            </Picker>
-            <BoxView Color="Black"
-                      HeightRequest="1"
-                      HorizontalOptions="FillAndExpand"
-                      Margin="0,-20,0,0"/>
+                <local:NotificationView
+                    AbsoluteLayout.LayoutBounds="1,1.1,0,1"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    VerticalOptions="Center"
+                    HorizontalOptions="End"/>
+            </AbsoluteLayout>
 
-            <Button Text="Submit" 
-                    Margin="0,00,0,0"
-                    Clicked="OnUploadImageClicked" 
-                    BackgroundColor="#4120a9" 
-                    TextColor="white"
-                    HorizontalOptions="End"
-                    FontSize="14"
-                    FontAttributes="Bold"
-                    CornerRadius="20"/>
-        </VerticalStackLayout>
-    </Grid>
+            <VerticalStackLayout Grid.Row="1"
+                                 Spacing="25"
+                                 Padding="50"
+                                 VerticalOptions="CenterAndExpand"
+                                 HorizontalOptions="Center">
+                <Border x:Name="imageBox"
+                        StrokeDashArray="4,2"
+                        Stroke="#999"
+                        StrokeThickness="2"
+                        Background="#EEE"
+                        StrokeShape="RoundRectangle 15"
+                        HeightRequest="200"
+                        WidthRequest="200"
+                        HorizontalOptions="Center">
+                    <Grid>
+                        <Image x:Name="previewImage"
+                               Aspect="AspectFill"
+                               IsVisible="False"/>
+                        <Label x:Name="plusLabel"
+                               Text="+"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               FontSize="50"
+                               TextColor="Black"/>
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnImageBoxTapped"/>
+                        </Grid.GestureRecognizers>
+                    </Grid>
+                </Border>
+            </VerticalStackLayout>
+
+            <StackLayout x:Name="formLayout"
+             Grid.Row="2"
+             Spacing="15"
+             IsVisible="False">
+
+                <Label Text="Title"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       FontSize="16"/>
+
+                <StackLayout>
+                    <Entry x:Name="titleEntry"
+                           Placeholder="Enter title"
+                           TextColor="Black"
+                           PlaceholderColor="Gray"
+                           BackgroundColor="Transparent"
+                           Margin="0,-20,0,0"
+                           FontSize="15"/>
+                    <BoxView HeightRequest="1"
+                             BackgroundColor="Black"/>
+                </StackLayout>
+
+                <Label Text="Category"
+                       FontSize="16"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       Margin="0,10,0,0"/>
+
+                <StackLayout>
+                    <Picker x:Name="categoryPicker"
+                            Title="Select category"
+                            TextColor="Black"
+                            BackgroundColor="Transparent"
+                            Margin="0,-20,0,0">
+                        <Picker.Items>
+                            <x:String>Digital Art</x:String>
+                            <x:String>Photography</x:String>
+                            <x:String>Abstract</x:String>
+                            <x:String>Sculpture</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <BoxView HeightRequest="1"
+                             BackgroundColor="Black"/>
+                </StackLayout>
+
+                <Button Text="Submit"
+                        Clicked="OnSubmitClicked"
+                        BackgroundColor="#1B56FD"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        CornerRadius="20"
+                        HorizontalOptions="End"
+                        Margin="0,10,0,0"/>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
 </ContentPage>

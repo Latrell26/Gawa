@@ -18,9 +18,6 @@
     <MauiXaml Update="CreatePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="DigitalPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="FirstPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

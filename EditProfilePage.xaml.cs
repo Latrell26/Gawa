@@ -28,11 +28,11 @@ namespace MauiApp2
     public partial class EditProfilePage : ContentPage
     {
         private const string SupabaseUrl = "https://xurgyelsilpzbkcrrjqo.supabase.co";
-        private const string SupabaseApiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh1cmd5ZWxzaWxwemJrY3JyanFvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDEwOTc4NDcsImV4cCI6MjA1NjY3Mzg0N30.6kRX0B5MmDuXFxNcRtEjjmIRLFDw4uC2BTsv3myomEQ"
-;
-
+        private const string SupabaseApiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh1cmd5ZWxzaWxwemJrY3JyanFvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDEwOTc4NDcsImV4cCI6MjA1NjY3Mzg0N30.6kRX0B5MmDuXFxNcRtEjjmIRLFDw4uC2BTsv3myomEQ";
         private Supabase.Client supabase;
         private FileResult selectedImage;
+
+        bool _hasLoadedOnce = false;
 
         public string UserName { get; set; }
 
@@ -47,6 +47,24 @@ namespace MauiApp2
         {
             supabase = new Supabase.Client(SupabaseUrl, SupabaseApiKey);
             await supabase.InitializeAsync();
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if (!_hasLoadedOnce)
+            {
+                _hasLoadedOnce = true;
+                return;
+            }
+
+            await Navigation.PopAsync();
+        }
+
+        private async void OnBackButtonTapped(object sender, TappedEventArgs e)
+        {
+            await Navigation.PopAsync();
         }
 
         private async void LoadUserProfile()
